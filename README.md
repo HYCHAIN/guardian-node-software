@@ -10,7 +10,7 @@ By operating the HYCHAIN Guardian Node Software, you [agree to our terms of serv
 
 A guardian submit assertions for node keys that they either own or have been approved to submit assertions for.
 
-Command to run guardian software. This is will validate and submit assertions for all node keys that are approved for, or owned by the <guardian-private-key> address.
+Command to run guardian software. This will validate and submit assertions for all node keys that are approved for, or owned by the <guardian-private-key> address.
 
 ```sh
 ./cli/{your-os}/guardian-cli-{your-os} guardian run <guardian-private-key> --loop-interval-ms 3600000
