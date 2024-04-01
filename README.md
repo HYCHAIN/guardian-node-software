@@ -28,7 +28,7 @@ Please note, the address associated with the <guardian-private-key> must maintai
 
 1. A challenge is produced every time a batch from the Rollup is submitted to Ethereum. This is done by a challenger service hosted by Caldera
 2. Each Node Key will submit assertions to a subset of challenges with an average of 1 assertion per day per node key. Whether a node key is eligible to submit an assertion to a challenge is determined on chain.
-3. Each challenge will have an expiry period of 1 day. This means a guardian will need to run the guardian software successfully at least once a day
+3. Each challenge will have an expiry period of 1 day. This means a guardian will need to run the guardian software successfully at least once a day, or keep the guardian node running constantly with `--loop-interval-ms`
 4. Once a challenge expires, the challenger service will verify all assertions made and revoke any node keys who submitted invalid assertions.
 
 ## Expanded Usage Details
