@@ -24,6 +24,10 @@ Command to run to claim rewards for a list of node keys. Signer private key can 
 
 Please note, the address associated with the <guardian-private-key> must maintain a $TOPIA balance on HYCHAIN in order to properly submit assertions or claims.
 
+## Wallet Delegation (Delegate.xyz)
+
+If you do not want to use the private key of your wallet that owns your node keys, you can delegate to a burner/hot wallet to handle the operation of your node. HYCHAIN Guardian Node operation fully supports delegate.xyz. Please use this link to delegate to the hot wallet you intend to use: https://delegate.xyz/?r&chainId=2911&contract=0xE1060b30D9fF01Eef71248906Ce802801a670A48
+
 ## Challenge Architecture / Flow Overview
 
 1. A challenge is produced every time a batch from the Rollup is submitted to Ethereum. This is done by a challenger service hosted by Caldera
